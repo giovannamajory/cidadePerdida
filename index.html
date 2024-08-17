@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cidade Perdida</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="Imagem do cenario">
+            <p>Em um dia qualquer,  eu estava na escola e encontrei um livro antigo com uma carta que dizia que havia uma cidade perdida no Brasil.
+             A autora do livro deixa algumas pistas para encontrar a cidade e eu decidi que vou encontrar!</p>
+            <button class="btn-proximo" data-proximo="1">São Paulo</button>
+            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+        </div>
+
+
+        <div class="passo" id="passo-1">
+            <p>Eu começo minha jornada na cidade mais populosa do Brasil, São Paulo! 
+                Indo para a sé (ponto 0) de madrugada e encontro minha primeira pista! Um mapa!.</p>
+                <button class="btn-proximo" data-proximo="3">Continuar e seguir o mapa</button>
+                <button class="btn-proximo" data-proximo="4">Voltar para a casa</button>
+            </div>
+
+        <div class="passo" id="passo-2">
+            <p>Eu começo minha jornada jornada na cidade incrível Pernambuco! Em uma igreja antiga, eu encontro minha primeira pista! Um mapa!</p>
+            <button class="btn-proximo" data-proximo="5">Continuar e seguir o mapa</button>
+            <button class="btn-proximo" data-proximo="6">Voltar para a casa</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p> O mapa diz que eu preciso ir para um riacho. Há dois caminhos possíveis a direta ou a esquerda. Qual será que eu escolho?</p>
+            <button class="btn-proximo" data-proximo="7">Lado Direito</button>
+            <button class="btn-proximo" data-proximo="8">Lado Esquerdo</button>
+        </div>
+        
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4-voltar-casa.jpg" alt="">
+            <p>Senti medo da população da sé e optei por voltar para a casa, vai saber o que me esperava! Sempre ficarei pensando no que eu poderia achar</p>
+        </div>
+
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
