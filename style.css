@@ -1,7 +1,7 @@
 body {
     background-color: #1d4221;
     color: white;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,8 +13,17 @@ body {
 button {
     background-color: #64a712;
     color: white;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px; 
 }
+
+button:hover{
+    text-decoration: none;
+    color: black;
+    background-color: #BFCAD1;
+}
+
 
 .passo {
     display: none;
@@ -32,4 +41,5 @@ main {
 
 img{
     max-width: 90%;
+    border: 2.8px solid #BFCAD1;
 }
